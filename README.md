@@ -3,4 +3,6 @@
 ## Introduction
 
 * R language is a dialect of S. 
-* The default prompt is `>` 
+* The shell prompt (or command line) is where you type commands. 
+ * The default prompt is `>`. 
+ * 
