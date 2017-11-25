@@ -21,9 +21,9 @@
 * R objects are _immutable_, which means that you don't have to write code in order to change an object's state. Instead, you work with objects as values, and operations on objects create new objects when you need a new "state". 
 * Think of R objects and classes as abstract data structures.
 
-## 2.1 Types of Objects
+## 2.1 What "Types" Mean
 
-* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via classes or a _class system/hierarchy_ in most object-oriented languages.  
+* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via classes or a _class system/hierarchy_ in most object-oriented languages. Class systems are controlled by the `class()` function.  
 * _Type specifications_ define which functions can be applied to certain objects.
 * **_Types_** determine what you can do with objects.
 * The operations you can do with a particular object are simply determined by which functions you can call on the objects.
@@ -43,14 +43,23 @@
 
 * R's approach to object-oriented programming is through **_generic functions_** and **_classes_**. 
 * Technically, there are three systems for implementing generic functions and classes in R, called S3, S4, and R6, but the S3 system is the most basic and the one most referred here.
+* Computations are carried out using **_Methods_**, which are basically functions
 
 ### Generic Functions
 
-* **_Functions_** are the fundamental building blocks of R.
+* **_Functions_** are the fundamental building blocks of R. Almost everything in R is carried out through functions.
 * The most important thing to know about functions is that they're stored as R objects. 
+* A function is a piece of code written to carry out a specified task.
 * When plugged into `class()`, functions will produce an output of "function".  
 * You define a data structure's type with an operation, and functions are determined by that object's specific type.
 * _Generic functions_ can be used for multiple types of data. Generic functions are functions that work differently on different types of objects. 
 * Generic functions is one which can be applied to different types of inputs (objects), with resulting outputs that depend on the type of object. 
-  * EX: `summary()`
+  * EX: `summary()` and `print()`
 * 
+
+### Classes
+
+* A class defines a type of object, meaning it describes what types of properties it has, how it behaves, and how it relates to other types of objects.
+* Every object must be an instance of some class.
+* Many R objects have a class attribute. The class of an object is determined by its `class()` attribute, which is a character vector of class names. In other words, any object can have an attribute called "class" and any string can be the name of the class.
+* To simplify things, you can think of class and type as synonyms while working in R. 
