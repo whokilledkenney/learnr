@@ -10,6 +10,10 @@
 * Objects are referred to through symbols or variables. In R, symbols themselves are objects and can be manipulated. This is what differentiates R from other languages. 
 * R objects can be basically anything. 
 
-### 2.1 Object Types
+### 2.1 Types of Objects
 
-* 
+```
+> typeof()
+```
+
+* The 
