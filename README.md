@@ -13,9 +13,18 @@
 * R objects are _immutable_, which means that you don't have to write code in order to change an object's state. Instead, you work with objects as values, and operations on objects create new objects when you need a new "state". 
 * Think of R objects and classes as abstract data structures.
 
-### 2.1 Types of Objects
+## 2.1 Classes and Generic Functions
 
-* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via **_classes_** or a _class system/hierarchy_ in most object-oriented languages.  
+* R's approach to object-oriented programming is through **_generic functions_** and **_classes_**. 
+* Technically, there are three systems for implementing generic functions and classes in R, called S3, S4, and R6, but the S3 system is the most basic and the one most referred here.
+
+### 2.1.a Generic Functions
+
+* 
+
+## 2.2 Types of Objects
+
+* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via classes or a _class system/hierarchy_ in most object-oriented languages.  
 * _Type specifications_ define which _functions_ can be applied to certain objects.
 * **_Types_** determine what you can do with objects.
 * The operations you can do with a particular object are simply determined by which functions you can call on the objects.
