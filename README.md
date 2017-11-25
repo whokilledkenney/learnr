@@ -23,7 +23,7 @@
 
 ## 2.1 What "Types" Mean
 
-* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via classes or a _class system/hierarchy_ in most object-oriented languages. Class systems are controlled by the `class()` function.  
+* You have values (objects) and associated operations you can do on these values. These processes are usually implemented via classes or a _class system/hierarchy_ in most object-oriented languages.  
 * _Type specifications_ define which functions can be applied to certain objects.
 * **_Types_** determine what you can do with objects.
 * The operations you can do with a particular object are simply determined by which functions you can call on the objects.
