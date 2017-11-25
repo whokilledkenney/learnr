@@ -20,17 +20,29 @@
 * **_Types_** determine what you can do with objects.
 * The operations you can do with a particular object are simply determined by which functions you can call on the objects.
 * You can think of an object's type as its data structure.
+```
+# To determine an object's type:
+
+> typeof(x)
+```
+```
+# To determine an object's mode, meaning how it's stored:
+
+> mode(x)
+```
 
 ## 2.2 Classes and Generic Functions
 
 * R's approach to object-oriented programming is through **_generic functions_** and **_classes_**. 
-* Generic functions is one which can be applied to different types of inputs (objects), with resulting outputs that depend on the type of object. 
-  * EX: `summary()`
 * Technically, there are three systems for implementing generic functions and classes in R, called S3, S4, and R6, but the S3 system is the most basic and the one most referred here.
 
 ### Generic Functions
 
 * **_Functions_** are the fundamental building blocks of R.
-* The most important thing to know about functions is that they're objects in themselves.
+* The most important thing to know about functions is that they're stored as R objects. 
+* When plugged into `class()`, functions will produce an output of "function".  
 * You define a data structure's type with an operation, and functions are determined by that object's specific type.
 * _Generic functions_ can be used for multiple types of data. Generic functions are functions that work differently on different types of objects. 
+* Generic functions is one which can be applied to different types of inputs (objects), with resulting outputs that depend on the type of object. 
+  * EX: `summary()`
+* 
