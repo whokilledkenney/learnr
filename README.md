@@ -4,11 +4,15 @@
 * R is command driven, and the default prompt used to enter commands is `>`. Each command is executed one at a time. 
 * Rstudio is an IDE, and is the most common way to program R. 
 
-## 1.2 Interface
+## 1.1 Interface
 
 * The _R Script_ is the box in the top left corner.
 * The _R Console_ is the box in the bottom left corner.
 * The _R Environment_ is the box in the top right corner. It displays the set of external elements added, which includes datasets, variables, vectors, functions, etc.
+
+## 1.2 Imported Data
+
+* The datasets you upload to R are probably data frames.
 
 # 2. Objects 
 
@@ -55,7 +59,6 @@
 * _Generic functions_ can be used for multiple types of data. Generic functions are functions that work differently on different types of objects. 
 * Generic functions is one which can be applied to different types of inputs (objects), with resulting outputs that depend on the type of object. 
   * EX: `summary()` and `print()`
-* 
 
 ### Classes
 
@@ -63,3 +66,6 @@
 * Every object must be an instance of some class.
 * Many R objects have a class attribute. The class of an object is determined by its `class()` attribute, which is a character vector of class names. In other words, any object can have an attribute called "class" and any string can be the name of the class.
 * To simplify things, you can think of class and type as synonyms while working in R. 
+
+# 3. Data Types and Structures
+
