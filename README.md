@@ -1,12 +1,20 @@
 # 1. Introduction
 
 * R language is a dialect of S. 
-* R is command driven, and the default prompt used to enter commands is `>`. Each command is executed one at a time.  
+* R is command driven, and the default prompt used to enter commands is `>`. Each command is executed one at a time. 
+* Rstudio is an IDE, and is the most common way to program R. 
+
+## 1.2 Interface
+
+* The _R Script_ is the box in the top left corner.
+* The _R Console_ is the box in the bottom left corner.
+* The _R Environment_ is the box in the top right corner. It displays the set of external elements added, which includes datasets, variables, vectors, functions, etc.
 
 # 2. Objects 
 
 * In every computer programming language, variables provide a way of accessing the data stored in the computer's memory. 
 * R doesn't provide direct access to that data stored in the computer's memory, but rather provides a variety of specialized data structures, called **_objects_**. 
+* Objects are fundamentally a collection of data with associated functions, which are designed specifically to work on that data. _Classes_ are the various definitions of those functions and data.
 * Objects are referred to through symbols or variables. In R, symbols themselves are objects and can be manipulated. This is what differentiates R from other languages. 
 * R objects can be basically anything. 
 * We can do _operations_ on objects. This means that objects are communicating messages to other R objects, and the operations are how the object responds to that message. 
