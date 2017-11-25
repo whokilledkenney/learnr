@@ -9,10 +9,12 @@
 * The _R Script_ is the box in the top left corner.
 * The _R Console_ is the box in the bottom left corner.
 * The _R Environment_ is the box in the top right corner. It displays the set of external elements added, which includes datasets, variables, vectors, functions, etc.
+    * All objects loaded into R will be neatly separated into **Data**, **Values** (variables; aka objects), and **Functions** sections.
+    * Matrix-like objects are gathered under the **Data** section. This includes objects of the class `data.frame`, `matrix`, and `array`. 
 
 ## 1.2 Imported Data
 
-* The datasets you upload to R are probably data frames.
+* The datasets you upload to R are probably "data frames".
 
 # 2. Objects 
 
