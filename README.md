@@ -1,7 +1,9 @@
 ## Table of Contents
 
 1. [Introduction](https://github.com/whokilledkenney/learnr#1-introduction)
+   
    1.1. [Interface](https://github.com/whokilledkenney/learnr#11-interface)
+  
    1.2. [Imported Data](https://github.com/whokilledkenney/learnr#12-imported-data)
 
 
