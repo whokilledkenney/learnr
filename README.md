@@ -6,6 +6,13 @@
   
    1.2. [Imported Data](https://github.com/whokilledkenney/learnr#12-imported-data)
 
+2. [Objects](https://github.com/whokilledkenney/learnr#2-objects)
+
+   2.1. [What "Type" Means](https://github.com/whokilledkenney/learnr#21-what-types-mean)
+   
+   2.2. [Classes & Generic Functions](https://github.com/whokilledkenney/learnr#22-classes-and-generic-functions)
+
+3. [Data Types & Structures](https://github.com/whokilledkenney/learnr#3-data-types-and-structures)
 
 ***
 
